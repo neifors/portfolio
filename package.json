@@ -1,0 +1,56 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Website where to public all my working information",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --setupFilesAfterEnv ./src/test/setupTests.js",
+    "coverage": "jest --setupFilesAfterEnv ./src/test/setupTests.js --coverage --silent --watchAll=false",
+    "dev": "webpack serve --mode development --config config/webpack.config.dev.js",
+    "build": "webpack --config config/webpack.config.production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neifors/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "neifors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neifors/portfolio/issues"
+  },
+  "homepage": "https://github.com/neifors/portfolio#readme",
+  "devDependencies": {
+    "babel-jest": "^28.1.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
+    "react": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-simple-image-slider": "^2.4.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^14.2.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  }
+}
