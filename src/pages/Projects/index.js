@@ -16,6 +16,7 @@ export function Projects() {
          <Projectcard project={projects.p5}/>
          <Projectcard project={projects.p6}/>
          <Projectcard project={projects.p7}/>
+         <Projectcard project={projects.p8}/>
       </>
    )
 }
