@@ -51,9 +51,9 @@ export const projects = {
       "title": "Quizzly Bears",
       "description": "Quizzly Bears is a quiz game suitable for all. We don't think there is a better way to learn than playing this amazing game where you will be able to choose between many categories and also choose a level of difficulty giving you an opportunity to challenge yourself.",
       "tech":"Node.js, Express, Docker, Jest, MongoDB, React, Azure, Netlify, Bcrypt",
-      "url": "",
+      "url": "https://quizzly-bears.netlify.app/",
       "github": "https://github.com/neifors/LAP3--Project_Quizzly_Bear",
-      "imgs": []
+      "imgs": ["https://i.ibb.co/2sYg3h1/2022-05-26-4.png","https://i.ibb.co/cTbtXkp/2022-05-26-5.png","https://i.ibb.co/HXLZGwy/2022-05-26-6.png","https://i.ibb.co/19ZpG3r/2022-05-26-7.png","https://i.ibb.co/NCvVGT8/2022-05-26-8.png","https://i.ibb.co/2669kRH/2022-05-26-9.png"]
    },
    "p8": {
       "title": "Just Pick One",
