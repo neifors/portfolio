@@ -15,8 +15,8 @@ export const Projectcard = props => {
          <div>
             <h3>{props.project.title}</h3>
             <SimpleImageSlider
-            width={600}
-            height={280}
+            width={1000}
+            height={480}
             images={images}
             showBullets={true}
             showNavs={true}
