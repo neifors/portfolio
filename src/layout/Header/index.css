@@ -1,0 +1,39 @@
+nav#nav-bar {
+   display: flex;
+   padding: 10px;
+   justify-content: space-between;
+}
+
+div#nav-links-wrapper {
+   display: flex;
+   align-items: center;
+}
+
+div.nav-bar-link {
+   padding: 3px 8px;
+   font-size: 25px;
+   border: 1px solid rgb(18, 15, 64);
+   margin: 0 7px;
+   background-color: rgb(26, 56, 73);
+   border-radius: 5px;
+   box-shadow: inset 0 0 10px rgb(95, 147, 190);
+   box-shadow: 0 0 10px #939292;
+
+}
+
+.navlink {
+   text-decoration: none;
+   color: rgb(251, 249, 245);
+   font-weight: bold;
+}
+
+.navlink:hover {
+   font-size: 1.1em;
+}
+
+div#my-name {
+   font-size: 50px;
+   margin-right: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(26, 56, 73);
+}

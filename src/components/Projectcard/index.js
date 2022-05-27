@@ -12,8 +12,9 @@ export const Projectcard = props => {
    return (
 
       <>
-         <div>
-            <h3>{props.project.title}</h3>
+         <div className="project-card">
+            <h3 className="project-title">{props.project.title}</h3>
+            <p className="project-description">{props.project.description}</p>
             <SimpleImageSlider
             width={1000}
             height={480}
@@ -21,9 +22,11 @@ export const Projectcard = props => {
             showBullets={true}
             showNavs={true}
             />
-            <p>{props.project.description}</p>
-            <a href={props.project.url}><button>Try here</button></a>
-            <a href={props.project.github}><button>Repository</button></a>
+            <div className="buttons-wrapper">
+               {props.project.url && <a href={props.project.url}><button>Try here</button></a>}
+               <a href={props.project.github}><button>Repository</button></a>
+               {props.project.youtube && <a href={props.project.youtube}><button>Demo video</button></a>}
+            </div>
          </div>
       </>
    )

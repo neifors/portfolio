@@ -1,0 +1,14 @@
+div#projects-title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+div#projects-title h1 {
+   font-size: 80px;
+   color: rgb(203, 29, 58);
+   font-family: 'Play', sans-serif;;
+   border: 1px solid rgb(203, 29, 58);
+   padding: 10px 25px;
+   box-shadow: inset 0 0 30px rgb(255, 255, 255);
+}
