@@ -12,7 +12,7 @@ export const Header = () => {
             <div className="nav-bar-link"><NavLink className="navlink" to="projects" >Projects</NavLink></div>
             <div className="nav-bar-link"><NavLink className="navlink" to="skills" >Skills</NavLink></div>
          </div>
-         <div id='my-name'>Isabel Repetto Garcia-Plata</div>
+         <div id='my-name'>Isabel Repetto Garcia-Plata<img src='https://i.ibb.co/WG2y8fx/20220227-175515-2.jpg'/></div>
       </nav>
    )
 }
