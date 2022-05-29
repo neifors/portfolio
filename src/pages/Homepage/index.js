@@ -22,6 +22,11 @@ export function Homepage() {
       typeWriter()
    }, [])
 
+   function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+   }
+
    return(
       <>
          <div id='welcome-msg'><h2>Welcome to my Portfolio!</h2></div>
@@ -54,6 +59,8 @@ export function Homepage() {
             <p className='section-description'>
                I am open to new things that may come into my life and career and I'm excited to embark on the next stage.
             </p>
+            <div className="go-to-top" onClick={topFunction}>🔝</div>
+
          </div>
          <div className='section'>
             <h3 className='section-title'>
@@ -69,7 +76,10 @@ export function Homepage() {
             <p className='section-description'>
                But if I had to choose between all my hobbies, I would choose <strong>travelling</strong>. Discovering new places and cultures is the best way to keep growing up. Travel is my therapy. One of my favorite phrases regarding traveling is: <strong>it leaves you speechless, then turns you into a storyteller</strong>
             </p>
+            <div className="go-to-top" onClick={topFunction}>🔝</div>
+
          </div>
+         
       </>
       
    )

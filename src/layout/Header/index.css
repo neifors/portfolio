@@ -49,3 +49,16 @@ div#my-name img {
    margin-left: 30px;
    box-shadow: 0 0 10px #1d1c1c;
 }
+
+img.contact-icon {
+   width: 40px;
+   height: 40px;
+   padding: 0 15px;
+   cursor: pointer;
+}
+
+img.like-icon {
+   width: 50px;
+   height: 50px;
+   padding: 0 15px;
+}
