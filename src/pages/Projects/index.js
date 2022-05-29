@@ -20,10 +20,10 @@ export function Projects() {
       }
       typeWriter()
    }, [])
-   
 
    return (
       <>
+
          <div id="projects-title"><h1 id='title'></h1></div>
          <Projectcard project={projects.p1}/>
          <Projectcard project={projects.p2}/>

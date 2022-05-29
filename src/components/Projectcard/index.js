@@ -9,6 +9,11 @@ export const Projectcard = props => {
          images.push({url: img})
    }
 
+   function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+   }
+
    return (
 
       <>
@@ -27,6 +32,7 @@ export const Projectcard = props => {
                <a href={props.project.github}><button>Repository</button></a>
                {props.project.youtube && <a href={props.project.youtube}><button>Demo video</button></a>}
             </div>
+            <div className="go-to-top" onClick={topFunction}>🔝</div>
          </div>
       </>
    )
