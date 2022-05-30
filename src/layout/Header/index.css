@@ -125,11 +125,23 @@ div#second-name {
       top: 90px;
       display: flex;
       flex-direction: column;
-      background-color: white;
+      background-color: rgba(203, 29, 58, 0.862);
+      border-radius: 25px;
       padding: 30px; 
    }
 
    div#nav-links-wrapper.navbar.responsive .nav-bar-link, div#nav-links-wrapper.navbar.responsive a, div#nav-links-wrapper.navbar.responsive img {
       margin: 10px auto;
    }
+
+   .navlink:hover {
+      color: rgba(203, 29, 58, 0.862);
+      font-size: 1em;
+   }
+
+   div#nav-links-wrapper.navbar.responsive img:hover {
+      box-shadow: 0 0 10px #ffffff;
+      border-radius: 45px;
+   }
+
 }
