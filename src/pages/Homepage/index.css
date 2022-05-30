@@ -58,20 +58,25 @@ div#welcome-msg {
       text-align: justify;
       margin: 30px;
    }
-
-
 }
 
 @media only screen and (max-width: 600px) {
    div#about-me-title h1 {
       font-size: 40px;
    }
+
    div#welcome-msg {
       font-size: 1.1em;
    }
 
    p.section-description {
+      margin: 20px 20px;
       font-size: 16px;
    }
+
+   div.section {
+      margin: 10px;
+   }
+
 
 }

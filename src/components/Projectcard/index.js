@@ -19,14 +19,34 @@ export const Projectcard = props => {
       <>
          <div className="project-card">
             <h3 className="project-title">{props.project.title}</h3>
-            <p className="project-description">{props.project.description}</p>
-            <SimpleImageSlider
-            width={1000}
-            height={480}
-            images={images}
-            showBullets={true}
-            showNavs={true}
-            />
+            <p className="section-description">{props.project.description}</p>
+            <div className="project-large-imgs">
+               <SimpleImageSlider 
+               width={1000}
+               height={480}
+               images={images}
+               showBullets={true}
+               showNavs={true}
+               />
+            </div>
+            <div className="project-medium-imgs">
+               <SimpleImageSlider 
+               width={500}
+               height={260}
+               images={images}
+               showBullets={true}
+               showNavs={true}
+               />
+            </div>
+            <div className="project-small-imgs">
+               <SimpleImageSlider 
+               width={300}
+               height={160}
+               images={images}
+               showBullets={true}
+               showNavs={true}
+               />
+            </div>
             <div className="buttons-wrapper">
                {props.project.url && <a href={props.project.url}><button>Try here</button></a>}
                <a href={props.project.github}><button>Repository</button></a>

@@ -125,7 +125,7 @@ div#second-name {
       top: 90px;
       display: flex;
       flex-direction: column;
-      background-color: rgba(203, 29, 58, 0.862);
+      background-color: rgb(203, 29, 58);
       border-radius: 25px;
       padding: 30px; 
    }

@@ -10,16 +10,11 @@ div.project-card {
 }
 
 h3.project-title {
+   text-align: center;
    font-size: 35px;
    color: rgb(26, 56, 73)
 }
 
-p.project-description {
-   width: 1000px;
-   margin-bottom: 40px;
-   font-size: 22px;
-   text-align: justify;
-}
 
 div.buttons-wrapper {
    margin: 30px;
@@ -57,7 +52,7 @@ div.go-to-top:hover {
 @media only screen and (max-width: 1400px) {
    div.go-to-top {
       position:relative;
-      right: 60px;
+      right: 0%;
       font-size: 50px;
       padding: 0;
       cursor: pointer;
@@ -67,3 +62,5 @@ div.go-to-top:hover {
       font-size: 3.5em;
    }
 }
+
+
