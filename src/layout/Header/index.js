@@ -16,9 +16,23 @@ export const Header = () => {
       "url" : "https://i.ibb.co/WG2y8fx/20220227-175515-2.jpg"
    }
 
+   function myFunction() {
+      const x = document.getElementById("nav-links-wrapper");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+
    return(
       <nav id="nav-bar">
-         <div id="nav-links-wrapper">
+
+         <a href="javascript:void(0);" class="icon" onClick={myFunction}>
+            <i class="fa fa-bars"></i>
+         </a>
+
+         <div id="nav-links-wrapper" className='navbar'>
             <div className="nav-bar-link"><NavLink className="navlink" to="/" >About me</NavLink></div>
             <div className="nav-bar-link"><NavLink className="navlink" to="projects" >Projects</NavLink></div>
             <div className="nav-bar-link"><NavLink className="navlink" to="skills" >Skills</NavLink></div>
@@ -27,7 +41,8 @@ export const Header = () => {
             <ImgEffect info={like}/>
          </div>
          
-         <div id='my-name'>Isabel Repetto Garcia-Plata<ImgEffect info={profilePic}/></div>
+         <div id='my-name'><p>Isabel Repetto <span>Garcia-Plata</span></p><ImgEffect info={profilePic}/><div id='second-name'>Isabel Repetto</div></div>
+         
       </nav>
    )
 }

@@ -18,7 +18,6 @@ div.nav-bar-link {
    background-color: rgb(26, 56, 73);
    border-radius: 5px;
    box-shadow: 0 0 10px #939292;
-
 }
 
 .navlink {
@@ -34,12 +33,28 @@ div.nav-bar-link {
 div#my-name {
    display: flex;
    align-items: center;
-   font-size: 50px;
+   font-size: 30px;
    margin-right: 15px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: rgb(26, 56, 73);
    text-shadow: -2px 2px 6px #ffffff;
    margin-right: 30px;
+}
+
+div#my-name span {
+   display: none;
+}
+
+@media only screen and (min-width: 1400px) {
+   div#my-name span {
+      display: inline;
+   }
+}
+
+@media only screen and (min-width: 1200px) {  
+   div#my-name {
+      font-size: 50px;
+   }
 }
 
 div#my-name .profile-pic {
@@ -62,4 +77,59 @@ img.contact-icon {
    width: 40px;
    height: 40px;
    margin: 0 15px;
+}
+
+a.icon {
+   display: none;
+}
+
+div#second-name {
+   display:none;
+}
+
+@media only screen and (max-width: 1050px) {
+   div.nav-bar-link {
+      padding: 3px 8px;
+      font-size: 20px;
+   }
+}
+
+@media only screen and (max-width: 970px) {
+   div#my-name p {
+      display: none;
+   }
+
+   div#nav-links-wrapper.navbar {
+      display: none;
+   }
+
+   a.icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 30px;
+      font-size: 50px;
+      color: rgb(26, 56, 73);
+      cursor: pointer;
+   }
+
+   div#second-name {
+      display:inline;
+      margin: 30px;
+   }
+
+   div#nav-links-wrapper.navbar.responsive {
+      position: absolute;
+      right: 10px;
+      top: 90px;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      padding: 30px; 
+   }
+
+   div#nav-links-wrapper.navbar.responsive .nav-bar-link, div#nav-links-wrapper.navbar.responsive a, div#nav-links-wrapper.navbar.responsive img {
+      margin: 10px auto;
+   }
 }
