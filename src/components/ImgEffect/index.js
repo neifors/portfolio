@@ -1,14 +1,14 @@
 import React from 'react'
-import styles from './index.css'
+import './index.css'
 
-export const LikeBtn = () => {
+export const ImgEffect = props => {
 
   const [wobble, setWobble] = React.useState(0)
   
   return (
     <img
-      className="image"
-      src='https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-like-notifications-justicon-lineal-color-justicon.png'
+      className={props.info.classes}
+      src={props.info.url}
       alt="randomised!"
       onClick={() => setWobble(1)}
       onAnimationEnd={() => setWobble(0)}
@@ -16,3 +16,5 @@ export const LikeBtn = () => {
     />
   )
 }
+
+

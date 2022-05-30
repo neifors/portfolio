@@ -42,7 +42,7 @@ div#my-name {
    margin-right: 30px;
 }
 
-div#my-name img {
+div#my-name .profile-pic {
    margin-top: 20px;
    width: 100px;
    border-radius: 60px;
@@ -58,3 +58,8 @@ img.contact-icon {
    cursor: pointer;
 }
 
+.like {
+   width: 40px;
+   height: 40px;
+   margin: 0 15px;
+}
