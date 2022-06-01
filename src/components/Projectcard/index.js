@@ -8,6 +8,7 @@ export const Projectcard = props => {
 
    const [commentBox, setCommentBox] = useState(false)
    const [comments, setComments] = useState(false)
+   const [commentsButton, setCommentButton] = useState("See comments")
 
 
 
@@ -27,6 +28,11 @@ export const Projectcard = props => {
 
    function handleClickShowComments() {
       setComments(!comments)
+      if(commentsButton === "See comments"){
+         setCommentButton("Hide comments")
+      } else {
+         setCommentButton("See comments")
+      }
    }
 
 
@@ -68,7 +74,7 @@ export const Projectcard = props => {
                <a href={props.project.github}><button>Repository</button></a>
                {props.project.youtube && <a href={props.project.youtube}><button>Demo video</button></a>}
                <button onClick={handleClickCommentBox}>New comment</button>
-               <button onClick={handleClickShowComments}>See comments</button>
+               <button onClick={handleClickShowComments}>{commentsButton}</button>
             </div>
             {commentBox && <CommentBox project={props.project.name}/>}
             {comments && <RenderComments project={props.project.name}/>}
