@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
+import { CommentBox } from "../CommentBox";
+import { RenderComments } from "../RenderComments"
 import "./index.css";
 
 export const Projectcard = props => {
+
+   const [commentBox, setCommentBox] = useState(false)
+   const [comments, setComments] = useState(false)
+
+
 
    let images = []
    for (let img of props.project.imgs){
@@ -13,6 +20,15 @@ export const Projectcard = props => {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
    }
+
+   function handleClickCommentBox() {
+      setCommentBox(!commentBox)
+   }
+
+   function handleClickShowComments() {
+      setComments(!comments)
+   }
+
 
    return (
 
@@ -51,7 +67,11 @@ export const Projectcard = props => {
                {props.project.url && <a href={props.project.url}><button>Try here</button></a>}
                <a href={props.project.github}><button>Repository</button></a>
                {props.project.youtube && <a href={props.project.youtube}><button>Demo video</button></a>}
+               <button onClick={handleClickCommentBox}>New comment</button>
+               <button onClick={handleClickShowComments}>See comments</button>
             </div>
+            {commentBox && <CommentBox project={props.project.name}/>}
+            {comments && <RenderComments project={props.project.name}/>}
             <div className="go-to-top" onClick={topFunction}>🔝</div>
          </div>
       </>

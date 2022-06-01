@@ -5,7 +5,8 @@ export const projects = {
       "tech":"JavaScript, React, HTML, CSS, Node.js, Express, nodemon",
       "url": "https://michael-jackson.netlify.app",
       "github":"https://github.com/neifors/music-app",
-      "imgs": ["https://i.ibb.co/bbdyJNC/2022-05-25-1.png","https://i.ibb.co/0Cy4kns/2022-05-25-2.png","https://i.ibb.co/zfC6JS3/2022-05-25-3.png","https://i.ibb.co/Wtcn9rH/2022-05-25-4.png"]
+      "imgs": ["https://i.ibb.co/bbdyJNC/2022-05-25-1.png","https://i.ibb.co/0Cy4kns/2022-05-25-2.png","https://i.ibb.co/zfC6JS3/2022-05-25-3.png","https://i.ibb.co/Wtcn9rH/2022-05-25-4.png"],
+      "name" : "michaeljackson"
    },
    "p2": {
       "title":"Github Tracker",
@@ -13,7 +14,8 @@ export const projects = {
       "tech":"JavaScript, React, HTML, CSS, GitHub API",
       "url": "https://fp-github-tracker.netlify.app",
       "github":"https://github.com/neifors/github-tracker-challenge",
-      "imgs": ["https://i.ibb.co/V38yBmN/2022-05-25-5.png"]
+      "imgs": ["https://i.ibb.co/V38yBmN/2022-05-25-5.png"],
+      "name": "githubtracker"
    },
    "p1": {
       "title":"Google Task",
@@ -21,7 +23,8 @@ export const projects = {
       "tech":"HTML, plain CSS, VanillaJS, Node.js, Express, nodemon.",
       "url": "https://seems-like-google.netlify.app",
       "github":"https://github.com/neifors/Googletask",
-      "imgs": ["https://i.ibb.co/pwNmsd1/2022-05-25-6.png","https://i.ibb.co/mB6GRx6/2022-05-25-7.png"]
+      "imgs": ["https://i.ibb.co/pwNmsd1/2022-05-25-6.png","https://i.ibb.co/mB6GRx6/2022-05-25-7.png"],
+      "name": "googletask"
    },
    "p4": {
       "title":"Free Thoughts",
@@ -29,7 +32,8 @@ export const projects = {
       "tech":"HTML, CSS, JavaScript, Node.js, Express, nodemon, MongoDB, Docker",
       "url": "https://free-thoughts.netlify.app",
       "github":"https://github.com/neifors/codeChanllenge-telegraphStyle",
-      "imgs": ["https://i.ibb.co/804P5K2/2022-05-25-8.png","https://i.ibb.co/Rzzkjt4/2022-05-25-9.png","https://i.ibb.co/CB6fNd2/client-posts.png"]
+      "imgs": ["https://i.ibb.co/804P5K2/2022-05-25-8.png","https://i.ibb.co/Rzzkjt4/2022-05-25-9.png","https://i.ibb.co/CB6fNd2/client-posts.png"],
+      "name": "freethougths"
    },
    "p5": {
       "title":"Library rooms",
@@ -37,7 +41,8 @@ export const projects = {
       "tech":"Python, Django, channels, redis",
       "url": "https://sample-library-rooms.herokuapp.com/",
       "github":"https://github.com/neifors/library-rooms-club",
-      "imgs": ["https://i.ibb.co/89hr70g/2022-05-25-10.png","https://i.ibb.co/y6TBDrR/2022-05-25-17.png","https://i.ibb.co/FgdW13c/2022-05-25-18.png","https://i.ibb.co/r5qyJmw/2022-05-25-12.png","https://i.ibb.co/x7Y00W1/2022-05-25-13.png","https://i.ibb.co/0QwNgs9/2022-05-25-19.png","https://i.ibb.co/0FvXYKQ/2022-05-25-11.png","https://i.ibb.co/RPxQ1sf/2022-05-25-14.png","https://i.ibb.co/CHYD7SQ/2022-05-25-15.png","https://i.ibb.co/mD0WPzZ/2022-05-25-16.png"]
+      "imgs": ["https://i.ibb.co/89hr70g/2022-05-25-10.png","https://i.ibb.co/y6TBDrR/2022-05-25-17.png","https://i.ibb.co/FgdW13c/2022-05-25-18.png","https://i.ibb.co/r5qyJmw/2022-05-25-12.png","https://i.ibb.co/x7Y00W1/2022-05-25-13.png","https://i.ibb.co/0QwNgs9/2022-05-25-19.png","https://i.ibb.co/0FvXYKQ/2022-05-25-11.png","https://i.ibb.co/RPxQ1sf/2022-05-25-14.png","https://i.ibb.co/CHYD7SQ/2022-05-25-15.png","https://i.ibb.co/mD0WPzZ/2022-05-25-16.png"],
+      "name": "libraryrooms"
    },
    "p6": {
       "title": "Weekly Fitness Tracker",
@@ -45,7 +50,8 @@ export const projects = {
       "tech":"Node.js, Express, Docker, Jest, MongoDB, VanillaJS",
       "url": "https://weekly-fitness-tracker.netlify.app/",
       "github": "https://github.com/neifors/weekly-fitness-tracker",
-      "imgs": ["https://i.ibb.co/wB1TWPN/2022-05-26.png","https://i.ibb.co/qW6TRFm/2022-05-26-3.png","https://i.ibb.co/KmPRC5s/2022-05-26-2.png","https://i.ibb.co/xh7rh55/2022-05-26-1.png"]
+      "imgs": ["https://i.ibb.co/wB1TWPN/2022-05-26.png","https://i.ibb.co/qW6TRFm/2022-05-26-3.png","https://i.ibb.co/KmPRC5s/2022-05-26-2.png","https://i.ibb.co/xh7rh55/2022-05-26-1.png"],
+      "name": "fitnesstracker"
    },
    "p7": {
       "title": "Quizzly Bears",
@@ -54,7 +60,8 @@ export const projects = {
       "url": "https://quizzly-bears.netlify.app/",
       "github": "https://github.com/neifors/LAP3--Project_Quizzly_Bear",
       "imgs": ["https://i.ibb.co/2sYg3h1/2022-05-26-4.png","https://i.ibb.co/cTbtXkp/2022-05-26-5.png","https://i.ibb.co/HXLZGwy/2022-05-26-6.png","https://i.ibb.co/19ZpG3r/2022-05-26-7.png","https://i.ibb.co/NCvVGT8/2022-05-26-8.png","https://i.ibb.co/2669kRH/2022-05-26-9.png"],
-      "youtube" : "https://youtu.be/WSdK2aJDbYs"
+      "youtube" : "https://youtu.be/WSdK2aJDbYs",
+      "name" : "quizzlybears"
    },
    "p8": {
       "title": "Just Pick One",
@@ -63,7 +70,8 @@ export const projects = {
       "url": "",
       "github": "https://github.com/idrisimo/fp-Just-pick-one",
       "imgs": ["https://i.ibb.co/3CMKnB8/2022-05-26-11.png","https://i.ibb.co/4dtfHq1/2022-05-26-12.png","https://i.ibb.co/QbxMbLj/2022-05-26-13.png","https://i.ibb.co/09T3KY4/2022-05-26-14.png","https://i.ibb.co/sFvsjrw/2022-05-26-15.png","https://i.ibb.co/rF8FXXC/2022-05-26-10.png"],
-      "youtube" : "https://youtu.be/WOk8jzJ16U8"
+      "youtube" : "https://youtu.be/WOk8jzJ16U8",
+      "name": "justpickone"
    },
    "p9": {
       "title": "Indexed World",
@@ -71,7 +79,8 @@ export const projects = {
       "tech":"Python, Django",
       "url": "",
       "github": "https://github.com/neifors/Mundo-Indexado",
-      "imgs": []
+      "imgs": [],
+      "name" : "indexedworld"
    },
    "p10": {
       "title": "Find your DEA",
@@ -79,7 +88,8 @@ export const projects = {
       "tech":"Python, Django",
       "url": "",
       "github": "https://github.com/neifors/Find-your-Dea-project",
-      "imgs": []
+      "imgs": [],
+      "name": "findyourdea"
    },
    "p11": {
       "title": "URL Shortener",
@@ -87,7 +97,8 @@ export const projects = {
       "tech":"Python, Django",
       "url": "",
       "github": "https://github.com/neifors/URL-shortener-service",
-      "imgs": []
+      "imgs": [],
+      "name": "urlshortener"
    }
 
 }
