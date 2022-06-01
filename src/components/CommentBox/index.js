@@ -4,7 +4,6 @@ import "./index.css";
 
 export const CommentBox = props => {
 
-   const [saved, setSaved] = useState()
 
    async function sendComment(e){
 
@@ -15,13 +14,14 @@ export const CommentBox = props => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(Object.fromEntries(new FormData(e.target)))
          }
+         e.target['pseudonym'].value = ""
+         e.target['title'].value = ""
+         e.target['message'].value = ""
 
-         console.log(JSON.stringify(options.body))
          await fetch("http://localhost:3000/posts/create/", options)
-         setSaved(true)
-
+         
       } catch (error) {
-         setSaved(false)
+         console.warn({error})
       }
 
    }
@@ -38,7 +38,7 @@ export const CommentBox = props => {
             <input type="text" name='project' id="project" value={props.project} hidden="true"/>
             <input type='submit' value="Submit"/>
          </form>
-         {saved && <p className="succesful-msg">Your message has been saved!</p>}
+         
       </>
    )
 }
