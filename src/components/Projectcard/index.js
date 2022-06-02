@@ -35,6 +35,11 @@ export const Projectcard = props => {
       }
    }
 
+   function commentSaved() {
+      setCommentBox(false)
+      handleClickShowComments()
+   }
+
 
    return (
 
@@ -76,7 +81,7 @@ export const Projectcard = props => {
                <button onClick={handleClickCommentBox}>New comment</button>
                <button onClick={handleClickShowComments}>{commentsButton}</button>
             </div>
-            {commentBox && <CommentBox project={props.project.name}/>}
+            {commentBox && <CommentBox project={props.project.name} handleSaved={commentSaved}/>}
             {comments && <RenderComments project={props.project.name}/>}
             <div className="go-to-top" onClick={topFunction}>🔝</div>
          </div>

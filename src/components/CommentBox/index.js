@@ -20,6 +20,9 @@ export const CommentBox = props => {
 
          await fetch("https://portfolio-srvr.herokuapp.com/posts/create/", options)
          
+         alert("Comment saved!")
+         props.handleSaved()
+
       } catch (error) {
          console.warn({error})
       }
@@ -28,13 +31,13 @@ export const CommentBox = props => {
 
    return (
       <>
-         <form onSubmit={sendComment}>
-            <label htmlFor="pseudonym">Name: </label>
-            <input type="text" name='pseudonym' placeholder="E.g. Alice" id="pseudonym" required/>
+         <form onSubmit={sendComment} >
+            <label htmlFor="pseudonym" >Name: </label>
+            <input type="text" name='pseudonym' id="pseudonym" maxlength="10" required/>
             <label htmlFor="title">Title: </label>
-            <input type="text" name='title' placeholder="E.g. Style" id="title" required/>
+            <input type="text" name='title' id="title" maxlength="15" required/>
             <label htmlFor="message">Message: </label>
-            <textarea name='message' placeholder="E.g. Are you using bootstrap or just plain CSS?" id="message" required></textarea>
+            <textarea name='message' id="message" cols="20" rows="10" maxlength="150" required></textarea>
             <input type="text" name='project' id="project" value={props.project} hidden="true"/>
             <input type='submit' value="Submit"/>
          </form>

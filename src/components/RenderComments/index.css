@@ -1,3 +1,13 @@
 div.comment-wrapper {
-   width: 90vw;
+   width: 250px;
+   text-align: center;
 }
+
+div.comments-wrapper {
+   display: flex;
+   align-items: center;
+   flex-direction: row-reverse;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+

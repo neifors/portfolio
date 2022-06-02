@@ -38,7 +38,7 @@ export const RenderComments = props => {
 
    return(
       <>
-         {commentsValue && <div>{displayComments()}</div>}
+         {commentsValue && <div className='comments-wrapper'>{displayComments()}</div>}
          {!commentsValue && <p>Loading...</p>}
       </>
    )
