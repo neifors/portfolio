@@ -28,9 +28,10 @@ export const RenderComments = props => {
       return(
          commentsValue.map( c => 
             <div key={counter++} className='comment-wrapper section'>
-               <h3>{c.title}</h3>
-               <p>{c.message}</p>
-               <p>By {c.pseudonym}</p>
+               <p className='comment-date'>{c.date}</p>
+               <p className='comment-pseudonym'><span>From: </span><strong>{c.pseudonym}</strong></p>
+               <p className='comment-title'><span>Title: </span>{c.title}</p>
+               <p className='comment-message'>{c.message}</p>
             </div>
          )
       )

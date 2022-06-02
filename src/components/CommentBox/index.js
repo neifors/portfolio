@@ -33,9 +33,9 @@ export const CommentBox = props => {
       <>
          <form onSubmit={sendComment} >
             <label htmlFor="pseudonym" >Name: </label>
-            <input type="text" name='pseudonym' id="pseudonym" maxlength="10" required/>
+            <input type="text" name='pseudonym' id="pseudonym" maxlength="20" required/>
             <label htmlFor="title">Title: </label>
-            <input type="text" name='title' id="title" maxlength="15" required/>
+            <input type="text" name='title' id="title" maxlength="20" required/>
             <label htmlFor="message">Message: </label>
             <textarea name='message' id="message" cols="20" rows="10" maxlength="150" required></textarea>
             <input type="text" name='project' id="project" value={props.project} hidden="true"/>

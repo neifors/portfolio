@@ -29,7 +29,6 @@ div.buttons-wrapper button {
    border: 1px solid rgb(203, 29, 58);
    background-color: rgb(203, 29, 58);
    border-radius: 5px;
-   box-shadow: inset 0 0 10px rgb(95, 147, 190);
    box-shadow: 0 0 10px #939292;
    cursor: pointer;
 }
