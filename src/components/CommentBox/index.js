@@ -18,7 +18,7 @@ export const CommentBox = props => {
          e.target['title'].value = ""
          e.target['message'].value = ""
 
-         await fetch("http://localhost:3000/posts/create/", options)
+         await fetch("https://portfolio-srvr.herokuapp.com/posts/create/", options)
          
       } catch (error) {
          console.warn({error})

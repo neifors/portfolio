@@ -7,7 +7,7 @@ export const RenderComments = props => {
    
    const getComments = async () => {
       try{
-         const result = await fetch(`http://localhost:3000/posts/project/${props.project}`);
+         const result = await fetch(`https://portfolio-srvr.herokuapp.com/posts/project/${props.project}`);
          const data = await result.json()
          console.log(data)
          setCommentsValue(data)
