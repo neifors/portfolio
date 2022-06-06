@@ -77,6 +77,7 @@ img.contact-icon {
    width: 40px;
    height: 40px;
    margin: 0 15px;
+   background: none;
 }
 
 a.icon {
@@ -85,6 +86,16 @@ a.icon {
 
 div#second-name {
    display:none;
+}
+
+span#likes-counter {
+   position: relative;
+   right: 25px;
+   bottom: 15px;
+   background-color: crimson;
+   color: rgb(255, 255, 255);
+   padding: 4px 8px;
+   border-radius: 80px;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -144,5 +155,12 @@ div#second-name {
       border-radius: 45px;
    }
 
+   span#likes-counter {
+      left: 25px;
+      bottom: 65px;
+      background-color: white;
+      color: crimson;
+      font-weight: bold;
+   }
 }
 

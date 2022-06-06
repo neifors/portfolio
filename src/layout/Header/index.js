@@ -1,20 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {NavLink} from 'react-router-dom'
 import { ImgEffect } from '../../components';
+import {profilePic} from '../../data/data'
 import './index.css';
 
 
 export const Header = () => {
 
-   const like = {
-      "classes" : "image like",
-      "url" : 'https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-like-notifications-justicon-lineal-color-justicon.png'
+   const [liked, setLiked] = useState()
+   const [likes, setLikes] = useState()
+
+   const getLikes = async () => {
+      try {
+         const likes = await fetch("https://portfolio-srvr.herokuapp.com/likes")
+         const data = await likes.json()
+         setLikes(data.length)
+      } catch (error) {
+         console.warn(`Oooops! ${error.message}`)
+      }
    }
 
-   const profilePic = {
-      "classes": "image profile-pic",
-      "url" : "https://i.ibb.co/WG2y8fx/20220227-175515-2.jpg"
-   }
+   useEffect(() => {
+      getLikes()
+   }, [])
+
 
    function myFunction() {
       const x = document.getElementById("nav-links-wrapper");
@@ -24,6 +33,16 @@ export const Header = () => {
         x.className = "navbar";
       }
     }
+
+   const options = {
+      method: 'POST',
+      headers: { "Content-Type": "application/json" }
+   }
+
+   async function handleLike() {
+      setLiked(!liked)
+      await fetch("https://portfolio-srvr.herokuapp.com/likes/add", options)
+   }
 
    return(
       <nav id="nav-bar">
@@ -38,7 +57,7 @@ export const Header = () => {
             <div className="nav-bar-link"><NavLink className="navlink" to="skills" >Skills</NavLink></div>
             <a href='https://www.linkedin.com/in/isabel-repetto-garcia-plata/'><img src='https://img.icons8.com/doodle/344/linkedin-circled.png' alt='linkedin-icon' className='contact-icon'/></a>
             <a href='https://github.com/neifors'><img src='https://img.icons8.com/doodle/344/github--v1.png' alt='github-icon' className='contact-icon'/></a>
-            <ImgEffect info={like}/>
+            <img onClick={handleLike} className='image like' src='https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-like-notifications-justicon-lineal-color-justicon.png'/><span id='likes-counter'>{likes}</span>
          </div>
          
          <div id='my-name'><p>Isabel Repetto <span>Garcia-Plata</span></p><ImgEffect info={profilePic}/><div id='second-name'>Isabel Repetto</div></div>
