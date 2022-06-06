@@ -67,7 +67,7 @@ export const projects = {
       "title": "Just Pick One",
       "description": "How many times have you wanted to see a movie with your friends, your family, your partner, and you have spent more time trying to make a decision than watching the movie? I'm sure most of you have had this problem. Our app intention is to reduce this time allowing groups of people to vote on movies displayed by the app based on genres you would like to watch and what platforms you want to watch the movies on. Finally, the app will display the most voted movie and in case of a tie it will make a decision for you which will make your life easier reducing your arguments...",
       "tech":"Python, JavaScript, Django, React, MUI (CSS framework)",
-      "url": "",
+      "url": "https://just-pick-1-fp.netlify.app/",
       "github": "https://github.com/idrisimo/fp-Just-pick-one",
       "imgs": ["https://i.ibb.co/3CMKnB8/2022-05-26-11.png","https://i.ibb.co/4dtfHq1/2022-05-26-12.png","https://i.ibb.co/QbxMbLj/2022-05-26-13.png","https://i.ibb.co/09T3KY4/2022-05-26-14.png","https://i.ibb.co/sFvsjrw/2022-05-26-15.png","https://i.ibb.co/rF8FXXC/2022-05-26-10.png"],
       "youtube" : "https://youtu.be/WOk8jzJ16U8",
