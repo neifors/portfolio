@@ -107,3 +107,8 @@ export const profilePic = {
    "classes": "image profile-pic",
    "url" : "https://i.ibb.co/WG2y8fx/20220227-175515-2.jpg"
 }
+
+export const like = {
+   "classes" : "image like",
+   "url" : "https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-like-notifications-justicon-lineal-color-justicon.png"
+}
