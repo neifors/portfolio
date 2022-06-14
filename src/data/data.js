@@ -99,6 +99,16 @@ export const projects = {
       "github": "https://github.com/neifors/URL-shortener-service",
       "imgs": [],
       "name": "urlshortener"
+   },
+   "p12": {
+      "title": "Sun-Commerce",
+      "description": "An eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist”",
+      "tech": "Python, Django",
+      "url": "https://sun-commerce.herokuapp.com/",
+      "github": "https://github.com/neifors/auctions-project",
+      "imgs": ["https://i.ibb.co/m8y7Xkm/2022-06-13.png", "https://i.ibb.co/Z67rmLL/2022-06-14-1.png", "https://i.ibb.co/HY47hmt/2022-06-14-2.png", "https://i.ibb.co/ySfvq54/2022-06-13-2.png", "https://i.ibb.co/Vq3Jqdh/2022-06-13-3.png", "https://i.ibb.co/YQQ2qXt/2022-06-14-3.png", "https://i.ibb.co/CnyKZzS/2022-06-14-4.png", "https://i.ibb.co/Mhphtcv/2022-06-14-5.png"],
+      "youtube": "",
+      "name": "suncommerce"
    }
 
 }

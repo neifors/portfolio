@@ -25,14 +25,15 @@ export function Projects() {
       <>
 
          <div id="projects-title"><h1 id='title'></h1></div>
+         <Projectcard project={projects.p12}/>
+         <Projectcard project={projects.p7}/>
+         <Projectcard project={projects.p6}/>
+         <Projectcard project={projects.p5}/>
+         <Projectcard project={projects.p4}/>
+         <Projectcard project={projects.p3}/>
+         <Projectcard project={projects.p8}/>
          <Projectcard project={projects.p1}/>
          <Projectcard project={projects.p2}/>
-         <Projectcard project={projects.p3}/>
-         <Projectcard project={projects.p4}/>
-         <Projectcard project={projects.p5}/>
-         <Projectcard project={projects.p6}/>
-         <Projectcard project={projects.p7}/>
-         <Projectcard project={projects.p8}/>
       </>
    )
 }
