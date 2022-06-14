@@ -107,7 +107,7 @@ export const projects = {
       "url": "https://sun-commerce.herokuapp.com/",
       "github": "https://github.com/neifors/auctions-project",
       "imgs": ["https://i.ibb.co/m8y7Xkm/2022-06-13.png", "https://i.ibb.co/Z67rmLL/2022-06-14-1.png", "https://i.ibb.co/HY47hmt/2022-06-14-2.png", "https://i.ibb.co/ySfvq54/2022-06-13-2.png", "https://i.ibb.co/Vq3Jqdh/2022-06-13-3.png", "https://i.ibb.co/YQQ2qXt/2022-06-14-3.png", "https://i.ibb.co/CnyKZzS/2022-06-14-4.png", "https://i.ibb.co/Mhphtcv/2022-06-14-5.png"],
-      "youtube": "",
+      "youtube": "https://youtu.be/s-yhOjj7SzE",
       "name": "suncommerce"
    }
 
