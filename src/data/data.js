@@ -95,9 +95,9 @@ export const projects = {
       "title": "URL Shortener",
       "description": "This is a project about making a URL shortener using Django.",
       "tech":"Python, Django",
-      "url": "",
+      "url": "https://s-hort.herokuapp.com/",
       "github": "https://github.com/neifors/URL-shortener-service",
-      "imgs": [],
+      "imgs": ["https://i.ibb.co/dW8yHz2/2022-06-27-3.png", "https://i.ibb.co/WWSKNH7/2022-06-27-4.png"],
       "name": "urlshortener"
    },
    "p12": {
