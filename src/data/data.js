@@ -109,6 +109,16 @@ export const projects = {
       "imgs": ["https://i.ibb.co/m8y7Xkm/2022-06-13.png", "https://i.ibb.co/Z67rmLL/2022-06-14-1.png", "https://i.ibb.co/HY47hmt/2022-06-14-2.png", "https://i.ibb.co/ySfvq54/2022-06-13-2.png", "https://i.ibb.co/Vq3Jqdh/2022-06-13-3.png", "https://i.ibb.co/YQQ2qXt/2022-06-14-3.png", "https://i.ibb.co/CnyKZzS/2022-06-14-4.png", "https://i.ibb.co/Mhphtcv/2022-06-14-5.png"],
       "youtube": "https://youtu.be/s-yhOjj7SzE",
       "name": "suncommerce"
+   },
+   "p13": {
+      "title": "Email",
+      "description": "Front-end for an email client that makes API calls to send and receive emails.",
+      "tech": "Python, Django, VanillaJS",
+      "url": "",
+      "github": "https://github.com/neifors/Project-3---Mail",
+      "imgs" : ["https://i.ibb.co/hRRQCkb/2022-06-27-1.png","https://i.ibb.co/0f8ByVN/2022-06-27-2.png","https://i.ibb.co/ZM1y37q/2022-06-27.png"],
+      "youtube": "https://youtu.be/O95o8OmUH14",
+      "name": "email"
    }
 
 }
