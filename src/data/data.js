@@ -114,7 +114,7 @@ export const projects = {
       "title": "Email",
       "description": "Front-end for an email client that makes API calls to send and receive emails.",
       "tech": "Python, Django, VanillaJS",
-      "url": "",
+      "url": "https://mailproject3.herokuapp.com/",
       "github": "https://github.com/neifors/Project-3---Mail",
       "imgs" : ["https://i.ibb.co/hRRQCkb/2022-06-27-1.png","https://i.ibb.co/0f8ByVN/2022-06-27-2.png","https://i.ibb.co/ZM1y37q/2022-06-27.png"],
       "youtube": "https://youtu.be/O95o8OmUH14",
