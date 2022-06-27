@@ -75,11 +75,11 @@ export const projects = {
    },
    "p9": {
       "title": "Indexed World",
-      "description": "This app was made to find just electronic products with any discount. It is getting the products by scraping some Spanish online shops. This app is already 2 years old and those websites probably has changed the html structure and not giving back results.",
+      "description": "This app was made to find just electronic products with any discount. It is getting the products by scraping some Spanish online shops. This app is already 2 years old and those websites probably has changed the html structure and not giving back results. It was a real challenge to get this working as most of the websites detect you are scrapping it and it blocks your ip address.",
       "tech":"Python, Django",
-      "url": "",
+      "url": "https://indexed-world.herokuapp.com/",
       "github": "https://github.com/neifors/Mundo-Indexado",
-      "imgs": [],
+      "imgs": ["https://i.ibb.co/wWmWyrC/2022-06-27-9.png","https://i.ibb.co/chfXN0C/2022-06-27-10.png","https://i.ibb.co/PQ343Fn/2022-06-27-11.png","https://i.ibb.co/k82wSmq/2022-06-27-12.png"],
       "name" : "indexedworld"
    },
    "p10": {

@@ -36,6 +36,7 @@ export function Projects() {
          <Projectcard project={projects.p1}/>
          <Projectcard project={projects.p2}/>
          <Projectcard project={projects.p11}/>
+         <Projectcard project={projects.p9}/>
          <Projectcard project={projects.p10}/>
       </>
    )
