@@ -84,11 +84,11 @@ export const projects = {
    },
    "p10": {
       "title": "Find your DEA",
-      "description": "App to find the Automated External Defibrillator (AED) nearest to you in Madrid.",
+      "description": "It was my first Django app. Its purpose is to find the nearest Automated External Defibrillator (AED) to you in Madrid. Just the nearest AED functionality working. You can see where is it, the distance and you'll be able to find the way how to go there using google maps link. Really interesting project working with coordenates to find shorter distance. This project is fetching a public API of Madrid to get the list of all AED in the city",
       "tech":"Python, Django",
-      "url": "",
+      "url": "https://nearest-defibrillator.herokuapp.com/",
       "github": "https://github.com/neifors/Find-your-Dea-project",
-      "imgs": [],
+      "imgs": ["https://i.ibb.co/PQV1CQL/2022-06-27-5.png","https://i.ibb.co/YXSk2Lt/2022-06-27-6.png","https://i.ibb.co/V38m8WL/2022-06-27-8.png"],
       "name": "findyourdea"
    },
    "p11": {
